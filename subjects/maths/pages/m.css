@@ -1,0 +1,20 @@
+#box{
+    background-color: #ffffce;
+    padding: 40px;
+}
+.mainHeading{
+    background: -webkit-linear-gradient(#ff7979, rgb(209 0 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+h1{
+            font-size: 50px;
+    }
+}
