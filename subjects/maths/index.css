@@ -1,0 +1,30 @@
+#covermathsBox{
+    background-color: #ffffce;
+    padding: 20px;
+}
+
+#mathsBox h1{
+    background: -webkit-linear-gradient(#ff7979, rgb(209 0 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 100px;
+}
+#mathsBox .row .col .card{
+    background-color: #004726;
+    color: white;
+}
+
+#mathsBox .row .col .card-title{
+    color: yellow;
+}
+@media only screen and (max-width: 768px) {
+    #mathsBox .row {
+        flex-direction: column; 
+    }
+    #mathsBox h1{
+            font-size: 50px;
+    }
+}
